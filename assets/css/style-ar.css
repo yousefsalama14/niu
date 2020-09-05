@@ -1,0 +1,109 @@
+/*===================================*
+  00.STYLES FOR ARABIC
+*===================================*/
+
+body{
+    font-family: 'Cairo', sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-item{
+    text-align: right;
+}
+.btn + .btn{
+    margin-left: 0;
+    margin-right: 10px;
+}
+.fancy_box::before{
+    right: auto;
+}
+#about_section .fancy_box{
+    text-align: center;
+}
+.blog_meta li{
+    margin-left: 15px;
+    margin-right: 0;
+}
+.blog_meta li i{
+    margin-left: 8px;
+    margin-right: 0;
+}
+.dropdown-toggle::after, .dropdown-toggler::after{
+    margin-right: 7px;
+    margin-left: 0;
+}
+.rounded_input input{
+    padding-right: 20px;
+    padding-left: 0;
+}
+.newsletter_form button{
+    left: -1px;
+    top: 0px;
+    right: auto;
+}
+.post_img{
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    padding-left: .5rem;
+}
+.overlap_section{
+    margin-left: -50px;
+    border-radius: 50px 0 0 50px;
+    margin-right: 0;
+}
+.video_play{
+    left: 0;
+    right: 50%;
+}
+.ripple{
+    margin-right: 0;
+}
+.contact_info span{
+    margin-right: 0;
+    margin-left: 10px;
+    max-width: 120px;
+}
+.share h5{
+    float: right;
+}
+.course_author{
+    padding-right: 65px;
+}
+.author_img{
+    margin-right: -115px;
+    margin-left: 20px;
+    float: right;
+}
+.author_img img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.sidebar .widget_title::before{
+    right: 0;
+    left: auto;
+}
+.page-title h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+    background: #4A4DC7;
+    background: -webkit-linear-gradient(145deg, #FFBC09 0%, #4A4DC7 100%);
+    background: -webkit-linear-gradient(305deg, #FFBC09 0%, #4A4DC7 100%);
+    background: -o-linear-gradient(305deg, #FFBC09 0%, #4A4DC7 100%);
+    background: linear-gradient(145deg, #FFBC09 0%, #4A4DC7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+@media only screen and (max-width: 991px){
+    .dropdown-toggle::after{
+        float: none !important;
+    }
+}
